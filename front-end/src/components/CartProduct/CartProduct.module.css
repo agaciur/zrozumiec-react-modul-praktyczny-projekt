@@ -1,0 +1,52 @@
+.favProduct {
+  display: flex;
+  padding: 1rem 0rem;
+  gap: 3rem;
+  border-top: 1px solid var(--color-text-grey);
+  margin: 0.5rem 0;
+}
+
+.favProduct img {
+  width: 5.3125rem;
+  height: 8.75rem;
+}
+
+.productInfo {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.topRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.priceRow {
+  font-weight: 700;
+}
+
+.priceRow span {
+  font-weight: normal;
+  color: var(--color-text-grey);
+}
+
+.buttonRow {
+  display: flex;
+  gap: 2rem;
+  flex: 1;
+  align-items: flex-end;
+  font-size: 0.83331rem;
+}
+
+.buttonRow button {
+  border: none;
+  background: none;
+}
+
+.buttonRow img {
+  margin-right: 0.5rem;
+  width: 1rem;
+  height: 1rem;
+}

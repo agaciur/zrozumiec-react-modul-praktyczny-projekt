@@ -8,3 +8,7 @@
   font-weight: 700;
   text-transform: uppercase;
 }
+
+.isBlack {
+  background-color: var(--color-text-default);
+}
