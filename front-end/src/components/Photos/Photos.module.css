@@ -1,0 +1,19 @@
+.photos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.photos img {
+  width: 5.3125rem;
+  height: 7.5rem;
+  cursor: pointer;
+}
+.photos img.active {
+  border: 2px solid var(--color-text-default);
+}
+
+.mainPhoto {
+  width: 31.25rem;
+  height: 43.75rem;
+}

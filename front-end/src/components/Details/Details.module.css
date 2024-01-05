@@ -1,0 +1,32 @@
+.details {
+  width: 100%;
+  padding-right: 1rem;
+}
+
+.productName {
+  margin: 0.5rem 0;
+  font-weight: 700;
+}
+
+.productPrice {
+  font-size: 1.5rem;
+  color: var(--color-price);
+  margin-bottom: 2rem;
+}
+
+.extraInfo {
+  margin: 2rem 0;
+}
+
+.extraInfo li {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.extraInfo img {
+  width: 1.75rem;
+  height: 1.75rem;
+  margin-right: 1rem;
+}
