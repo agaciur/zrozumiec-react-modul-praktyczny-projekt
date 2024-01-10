@@ -3,6 +3,7 @@ import { FullWidthButton } from "../FullWidthButton/FullWidthButton"
 import CAR_ICON from "../../assets/car.svg"
 import RETURN_ICON from "../../assets/return.svg"
 import { Accordion } from "../Accordion/Accordion"
+import { Price } from "../Price/Price"
 export function Details({ product }) {
   const accordionContent = [
     {
@@ -18,7 +19,9 @@ export function Details({ product }) {
     <div className={styles.details}>
       <h2>{product.brand}</h2>
       <p className={styles.productName}>{product.productName}</p>
-      <p className={styles.productPrice}>{product.pricePLN}zł</p>
+      <p className={styles.productPrice}>
+        <Price product={product} />
+      </p>
       <FullWidthButton isBlack={true}>dodaj do koszyka</FullWidthButton>
       <ul className={styles.extraInfo}>
         <li>
