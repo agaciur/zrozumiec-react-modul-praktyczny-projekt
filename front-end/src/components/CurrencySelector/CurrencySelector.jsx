@@ -9,7 +9,6 @@ export function CurrencySelector() {
       value={currency}
       onChange={e => {
         setCurrency(e.currentTarget.value)
-        localStorage["selected_currency"] = e.currentTarget.value
       }}
       className={styles.currencySelector}>
       <option value={CURRENCIES.PLN}>{CURRENCIES.PLN}</option>
